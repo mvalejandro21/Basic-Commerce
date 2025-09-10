@@ -22,11 +22,6 @@ public class Usuario {
     @Enumerated(EnumType.STRING)
     private Rol rol;
 
-    public void setRol(String user) {
-    }
-
-    public void setPassword(String encode) {
-    }
 
     public enum Rol {
         CLIENTE, ADMIN

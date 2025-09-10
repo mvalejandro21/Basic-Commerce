@@ -29,5 +29,7 @@ public class PedidoItem {
     @Setter
     @Column(precision=12, scale=2) private BigDecimal subtotal;
 
+
+
     // getters & setters
 }
