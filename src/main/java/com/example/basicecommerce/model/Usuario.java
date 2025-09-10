@@ -15,7 +15,7 @@ public class Usuario {
     private String username;
 
     @Getter @Setter
-    @Column(nuAllable = false)
+    @Column(nullable = false)
     private String password;
 
     @Getter @Setter
